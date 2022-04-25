@@ -3,11 +3,13 @@ module github.com/cesanta/docker_auth/auth_server
 go 1.16
 
 require (
+
 	cloud.google.com/go/compute v1.10.0 // indirect
 	cloud.google.com/go/iam v0.5.0 // indirect
 	cloud.google.com/go/storage v1.27.0
 	github.com/PuerkitoBio/goquery v1.5.1 // indirect
 	github.com/casbin/casbin/v2 v2.55.1
+
 	github.com/cesanta/glog v0.0.0-20150527111657-22eb27a0ae19
 	github.com/coreos/go-oidc/v3 v3.4.0
 	github.com/dchest/uniuri v0.0.0-20220929095258-3027df40b6ce
@@ -37,6 +39,11 @@ require (
 	github.com/schwarmco/go-cartesian-product v0.0.0-20180515110546-d5ee747a6dc9
 	github.com/sirupsen/logrus v1.9.0 // indirect
 	github.com/stretchr/testify v1.7.0 // indirect
+	github.com/moby/moby v20.10.14+incompatible // indirect
+	github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e // indirect
+	github.com/schwarmco/go-cartesian-product v0.0.0-20180515110546-d5ee747a6dc9
+	github.com/sirupsen/logrus v1.8.0 // indirect
+	github.com/spf13/viper v1.11.0
 	github.com/syndtr/goleveldb v1.0.0
 	github.com/youmark/pkcs8 v0.0.0-20201027041543-1326539a0a0a // indirect
 	go.mongodb.org/mongo-driver v1.10.2
@@ -50,6 +57,10 @@ require (
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	google.golang.org/api v0.98.0
 	google.golang.org/genproto v0.0.0-20220930163606-c98284e70a91 // indirect
+	golang.org/x/crypto v0.0.0-20220411220226-7b82a4e95df4
+	golang.org/x/net v0.0.0-20220412020605-290c469a71a5
+	golang.org/x/oauth2 v0.0.0-20220411215720-9780585627b5
+	google.golang.org/api v0.74.0
 	gopkg.in/asn1-ber.v1 v1.0.0-20181015200546-f715ec2f112d // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/fsnotify.v1 v1.4.7
